@@ -8,7 +8,7 @@ Image in - Image out, simplifying your SR needs.
 
 #### Steps to Run:
 1. ```pip install -r requirements.txt```
-2. ```python streamlit start sr_app.py```
+2. ```streamlit run sr_app.py```
 
 #### References:
 
