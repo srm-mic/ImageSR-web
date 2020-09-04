@@ -68,6 +68,5 @@ if im_file is not None:
     sr_img = Image.fromarray(sr)
     st.title("Output Image")
     st.image(sr_img, use_column_width=True)
-    ## SR
-      
+   
     st.markdown(get_encoded_img(sr_img, ext), unsafe_allow_html=True)
