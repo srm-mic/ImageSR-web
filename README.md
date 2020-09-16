@@ -1,26 +1,23 @@
 # ImageSR-web
 Image in - Image out, simplifying your SR needs.
 
-#### Dependencies:
-- Streamlit
-- Tensorflow 2.x
-- NumPy
+## Motivation:
+With the latest advancement in the field of screens and displays technologies, image quality seems to somewhat fall short in delivering the best experience on the amazing displays available to us. Image Super Resolution aids us to upscale our low quality images to fit modern displays.
 
-#### Steps to Run:
-1. ```pip install -r requirements.txt```
-2. ```streamlit run sr_app.py```
+## Behing the curtains:
+Super resolution is the process of upscaling and or improving the details within an image. Essentially this is done by surrounding the already known pixels with pixels that learn from that particular pixel and creates an illusion of a higher resolution image.
+## Requirements:
+Python 3.8 or above will all [requirements](requirements.txt) dependencies installed. To install run:
+```python
+$ pip install -r requirements.txt
+```
+## To run:
+```python
+$ streamlit run sr_app.py
+```
+## Tutorial:
+#### Upload the image you want to run under the module and download the output image.
+![tutorial](ImageSR_tutorial.gif "Tutorial")
 
-#### Motivation
-Zooming into a image we get alot of noise rather than the desired
-Output now to solve this using computer vision we can train a 
-Neural Network in a way that it generates images with super
-Resolution.
-#### Working 
-In the initial stages we had the option to train a simple cnn
-But that would require alot of computation and at the end of the day
-Didnt give desired results thus the next step was to implement
-A Generative Adversarial Network which was trained on a set of 
-Images to give a super res output.
-The output is Upsampled to 4X.
-#### References:
+## References:
 - [Fast SRGAN](https://github.com/HasnainRaz/Fast-SRGAN)
