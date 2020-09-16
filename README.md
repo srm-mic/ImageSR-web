@@ -21,6 +21,6 @@ But that would require alot of computation and at the end of the day
 Didnt give desired results thus the next step was to implement
 A Generative Adversarial Network which was trained on a set of 
 Images to give a super res output.
+The output is Upsampled to 4X.
 #### References:
-- 4X upscaling.
 - [Fast SRGAN](https://github.com/HasnainRaz/Fast-SRGAN)
