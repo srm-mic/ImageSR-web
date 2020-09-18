@@ -5,7 +5,7 @@ Image in - Image out, simplifying your SR needs.
 With the latest advancement in the field of screens and displays technologies, image quality seems to somewhat fall short in delivering the best experience on the amazing displays available to us. Image Super Resolution aids us to upscale our low quality images to fit modern displays.
 
 ## Behing the curtains:
-Super resolution is the process of upscaling and or improving the details within an image. Essentially this is done by surrounding the already known pixels with pixels that learn from that particular pixel and creates an illusion of a higher resolution image.
+Super resolution is a form of interpolation enabled by deep learning which allows for creating higher resolution images from lower resolution inputs. This is done via the use of a non-linear mapping learnt by a deep neural network between the low and high resolution feature space.
 ## Requirements:
 Python 3.8 or above will all [requirements](requirements.txt) dependencies installed. To install run:
 ```python
